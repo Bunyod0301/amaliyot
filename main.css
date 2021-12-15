@@ -1,0 +1,479 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu {
+    height: 80px;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.menu .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu .menus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.time {
+    display: flex;
+    width: 233px;
+    height: 54px;
+}
+.time  p {
+    margin: 0;
+    margin-top: 25px;
+    padding-left: 10px;
+}
+.time i {
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 200;
+    color: #01b3a7;
+}
+.number {
+    display: flex;
+    width: 184px;
+    height: 54px;
+}
+.number p {
+    margin: 0;
+    margin-top: 25px;
+    color: #151515;
+    font-family: sans-serif;
+    padding-left: 10px;
+}
+.number i {
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 200;
+    color: #01b3a7;
+}
+.logo img {
+    width: 225px;
+    height: 18.5px;     
+}
+.btn button {
+    margin-top: 5px;
+    padding: 12px 23px;
+    border:solid 2px #01b3a7;
+    background-color: #fff;
+    font-family: sans-serif;
+    transition: 0.5s all ease;
+}
+.btn button:hover {
+    background-color: #01b3a7;
+    color: #fff;
+}
+.menu1 .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu1 {
+    height: 59px;
+    padding: 0 15px;
+    background-color: #162e44;
+}
+.home {
+    display: flex;
+}
+.home a {
+    padding: 17px 15px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.ins {
+    display: flex;
+}
+.ins i {
+    padding: 20px 8px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.Home  {
+    border-top: solid 3px #01b3a7;
+}
+
+.text1 {
+    padding: 80px 0 !important;
+    transform: translate(-60px,-100px) !important;
+    text-align: start !important; 
+}
+.text1 h6 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    
+}
+.text1 :nth-child(2) {
+    font-size: 64px;
+    color: #fff;
+    font-family: sans-serif;
+}
+.text1 :nth-child(3) {
+    font-size: 64px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.text1 button {
+    padding: 8px 18px;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 2px #fff;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: 0.5s all ease;
+}
+.text1 button:hover {
+    background-color: #50ba87;
+    color: #fff;
+    border-color: #50ba87;
+}
+.section3 .containerr {
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.section3 .containerr div {
+    position: relative;
+    top: -10px;
+}
+.section3 .containerr h5 {
+    position: absolute;
+    bottom: 15px;
+    margin-left: 27%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+.other {
+    margin-top: 30px;
+    text-align: center;
+    color: #151515;
+}
+.other p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.other i {
+    font-size: 20px;
+    margin-left: 10px;
+    transform: translateY(2px);
+}
+.section3 {
+    background-color: #f7f7f7;
+    padding: 0px 0px 90px;
+}
+.sss {
+    overflow: hidden;
+}
+.sss img {
+    transform: scale(1);
+    
+    transition: 0.5s all ease;
+}
+.sss img:hover {
+    transform: scale(1.15);
+}
+.section4 {
+    padding-top: 50px;
+}
+.section4 .container {
+    justify-content: space-between;
+}
+.discover {
+    width: 600px;
+    padding: 40px;
+}
+.discover h3 {
+    font-size: 36px;
+}
+.discover a {
+    text-decoration: none;
+    color: #9b9b9b;
+    font-size: 16px;
+    padding: 0px 0px 10px;
+}
+.discover .alar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #9b9b9b;
+    
+}
+.discover p {
+    margin-top: 20px;
+}
+.discover button {
+    padding: 13px 33px;
+    margin: 10px;
+}
+.btn1 {
+    background-color: #01b3a7;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #01b3a7;
+    transition: 0.5s all ease;
+}
+.btn2 {
+
+    background-color: white;
+    border: 2px solid black;
+    transition: 0.5s all ease;
+}
+.btn1:hover {
+    background-color: #fff;
+    color: black;
+    border-color: black;
+}
+.btn2:hover {
+    background-color: #01b3a7;
+    border-color: #01b3a7;
+    color: #fff;
+    font-weight: bold;
+}
+.grid1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:20px;
+}
+.grid1 i{
+    color: #01b3a7;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0 20px;
+}
+.grid1 a {
+    font-size: 21px;
+    color: black;
+    text-decoration: none;
+}
+.grid1 p {
+    font-size: 14px;
+    color: #9b9b9b;
+    margin: 20px 0;
+}
+.grid1 .item {
+    border: 5px solid #9b9b9b83;
+    padding: 50px 0;
+    transition: 0.5s all ease;
+}
+.section5 {
+    padding-top: 50px;
+}
+.item:hover {
+    border-color: #fff;
+    box-shadow: 0px 0px 20px 0px #9b9b9b83;
+}
+.text11 {
+    padding: 30px 80px;
+}
+.text11 a  {
+    font-size: 21px;
+    color: black;
+    text-decoration: none;
+}
+.fff {
+    align-items: center;
+}
+.fff p {
+    margin: 0;
+    align-items: center;
+    padding: 0 10px;
+    color: #9b9b9b;
+}
+.text12 {
+    color: #9b9b9b;
+    margin: 20px 0;
+}
+.text11 button {
+    padding: 11px 28px;
+    font-size: 16px;
+    border: 2px solid black;
+    background-color: #fff;
+    transition: 0.5s all ease;
+}
+.text11 button:hover {
+    border-color: #50ba87;
+    background-color: #50ba87;
+    color: #fff;
+}
+.radius {
+    display: flex;
+    align-items: center;
+    padding: 0px 17px;
+    background-color: #50ba87;
+    width: 80px;
+    transform: translate(390px, -248px);
+}
+.radius p {
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: bold;
+    color: #fff;
+}
+.rasm1 {
+    padding: 30px 0;
+}
+.img11 {
+    width: 150%;
+    overflow: hidden;
+}
+.img11 img {
+    transition: 0.5s all ease;
+}
+.img11 img:hover {
+    transform: scale(1.1);
+}
+.kes {
+    width: 40px;
+    height: 20px;
+    background-color: white;
+    transform: translate(370px,-265px) rotate(45deg);
+}
+.section6 {
+    padding-top: 50px;
+    height: 984px;
+}
+.grid2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:20px;
+}
+.ddd {
+    padding: 50px 30px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.imgg1 img {
+    width: 138px !important;
+    transform: translate(70px,25px);
+    border: 10px solid white;
+    border-radius: 100px;
+    transition: 0.5s all ease;
+}
+.imgg1 img:hover {
+    border-color: #01b3a7;
+    transform: translate(70px, 0px);
+}
+.itemm a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.itemm p {
+    color: #01b3a7;
+    font-weight: bold;
+}
+.section7 {
+    padding-bottom: 100px;
+}
+.section8 {
+    display: flex;
+    align-items: center;
+    background-image: url("../amaliyot/images/parallax-1-1920x850.jpg");
+    background-attachment: fixed;
+}
+.section8 .container {
+    align-items: center;
+    text-align: center;
+    padding: 100px 0;
+}
+.section8 .container span {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 400;
+}
+.section8 .container p {
+    margin: 15px 285px 0px;
+    background-color: rgba(169, 169, 169, 0.541);
+}
+.section8 .container button {
+    padding: 14px 35px;
+    background-color: #50ba87;
+    border: 2px solid #50ba87;
+    color: #fff;
+    font-weight: bold;
+    margin: 20px 0;
+    transition: 0.5s all ease;
+}
+.section8 .container button:hover {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    color: #fff;
+    font-weight: bold;
+}
+#scrlk {
+    background-color: #01b3a7;
+    padding: 10px 15px;
+    position:fixed;
+    bottom: 20px;
+    right: 40px;
+    display: none;
+}
+#scrlk i {
+    font-weight: bold;
+    color: #fff;
+}
+.rasmm {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.384);
+}
+.rasmm1 {
+    width: 85%;
+    animation: rasm1 1.5s;
+    display: none;
+}
+@keyframes rasm1 {
+    0% {
+        opacity: 0;
+        left: 0;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0.7;
+    }
+    100% {opacity: 1;
+        left: 100px;
+    }
+}
+.rasm2 {
+    width: 85%;
+    position: relative;
+    margin-left: 200px;
+    animation: rasm2 1.5s;
+    display: none;
+}
+@keyframes rasm2 {
+    0% {
+        opacity: 0;
+        right: 0px;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 1;
+        right: 100px;
+    }
+}
+.section9 img {
+    width: 100%;
+}
